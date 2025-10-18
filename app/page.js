@@ -1,4 +1,4 @@
- export default function Header(){
+export default function Header(){
   return(
     <div><div className="dark:bg-black bg-black w-[300px] md:w-full h-[600px] md:h-[900px] rounded-[80px] items-center flex flex-col">
 <div className="bg-black w-[200px] md:w-[1000px] h-[200px] items-center flex flex-row py-2 pr-3">
@@ -61,7 +61,7 @@
     </div>
   
   
-  <div className="bg-white w-[300px] md:w-full h-[400px] md:h-[900px] rounded-[40px]  flex flex-row items-center">
+  <div className="bg-white w-[300px] md:w-full h-[700px] md:h-[900px] rounded-[40px]  flex flex-row items-center">
     <div className="flex flex-col pr-4 mt-5 h-[400px] w-[400px] md:w-[800px] bg-white dark:text-black px-10">
       <div className="text-red-600 text-[10px] md:text-[20px] pr-4 flex flex-col md:ml-8">About Us</div>
       <div className=" text-[15px] md:text-[40px] text-black pr-4 md:ml-8">Fast and Reliable Car Care<br></br>Your Car Our Priority</div>
@@ -74,7 +74,7 @@
       
       </div>
       <div className=" flex flex-row">
-        <img className="h-[200px] md:h-[400px] w-[200px] md:w-[500px] mt-[50px] ml-[10px] mr-[40px] rounded-[20px]" src="https://themehealer.com/php-template/crank-php/assets/images/resources/main-slider-img-2.jpg"></img>
+        <img className="h-[200px] md:h-[400px] w-[200px] md:w-[500px] mt-[50px] mr-[40px]  rounded-[20px]" src="https://themehealer.com/php-template/crank-php/assets/images/resources/main-slider-img-2.jpg"></img>
       </div>
       <div className="flex flex-row"> <div className="flex flex-col w-full h-[100px] rounded-[10px] bg-white"></div></div>
      
@@ -116,7 +116,52 @@
     </div>
 
 
+<div className="bg-white h-[2000px] md:h-[900px] w-[300px] md:w-[300px] md:w-full rounded-[40px] shadow-2xl items-center flex flex-col md:mt-[200px]">
+<div className="text-red-600 text-[15px] md:text-[25px] font-bold mt-[100px]">Pricing plan</div>
+      <div className="text-black font-bold text-[20px] ml-[10px] md:text-[40px]">Our pricing plan</div>
+      <div className="flex flex-col md:flex-row space-x-10 mt-10">
+         <div className="flex flex-row">
+          <div className="h-[550px] md:h-[500px] w-[250px] md:w-[400px] bg-white border-2 rounded-[20px] text-black p-[10px]">
+            <div className="text-[40px]">Esay</div>
+            <div className="text-[15px]">Car service is essential for maintaining the performance and longevity of your vehicle. From oil changes Car service</div>
+            <div className="text-[40px] mt-[20px]">$10<span className="text-[20px]">/month</span></div>
+            <hr></hr>
+            <div className="text-[20px] mt-[20px]">Mistakes To Avoid<br></br>Winning for Your Startup<br></br>Mistakes To Avoid<br></br>Your Event, Your Memories
+</div>
+ <div className=" flex flex-col items-center justify-center rounded-[100px] h-[50px] md:h-[50px] w-[200px] md:w-[250px] mt-[20px] bg-white border-[1px] ">
+    <div className="text-[15px] md:text-[25px] mx-[10px]  text-black">Get started now</div></div>
+          </div>
+        </div>
+         <div className="flex flex-col md:flex-row">
+          <div className="h-[550px] md:h-[500px] w-[250px] md:w-[400px] bg-white border-2 rounded-[20px] text-black p-[10px]">
+            <div className="text-[40px]">Free</div>
+            <div className="text-[15px]">Car service is essential for maintaining the performance and longevity of your vehicle. From oil changes Car service</div>
+            <div className="text-[40px] mt-[20px]">$0<span className="text-[20px]">/month</span></div>
+            <hr></hr>
+            <div className="text-[20px] mt-[20px]">Mistakes To Avoid<br></br>Winning for Your Startup<br></br>Mistakes To Avoid<br></br>Your Event, Your Memories
+</div>
+ <div className=" flex flex-col items-center justify-center rounded-[100px] h-[50px] md:h-[50px] w-[200px] md:w-[250px] mt-[20px] bg-white border-[1px] ">
+    <div className="text-[15px] md:text-[25px] mx-[10px]  text-black">Get started now</div></div>
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row">
+          <div className="h-[550px] md:h-[500px] w-[250px] md:w-[400px]  bg-white border-2 rounded-[20px] text-black p-[10px]">
+            <div className="text-[40px]">Free</div>
+            <div className="text-[15px]">Car service is essential for maintaining the performance and longevity of your vehicle. From oil changes Car service</div>
+            <div className="text-[40px] mt-[20px]">$30<span className="text-[20px]">/month</span></div>
+            <hr></hr>
+            <div className="text-[20px] mt-[20px]">Mistakes To Avoid<br></br>Winning for Your Startup<br></br>Mistakes To Avoid<br></br>Your Event, Your Memories
+</div>
+ <div className=" flex flex-col items-center justify-center rounded-[100px] h-[50px] md:h-[50px] w-[200px] md:w-[250px] mt-[20px] bg-white border-[1px] ">
+    <div className="text-[15px] md:text-[25px] mx-[10px]  text-black">Get started now</div></div>
+          </div>
+        </div>
+      </div>
+       </div>
+      
+</div>
+
   
   
-  </div>);
+ );
 }
